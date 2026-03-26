@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Infection Control – 𝑩𝒀:𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴</title>
-  <title>Infection Control –&𝑵𝑨𝑫𝑬𝑹 𝑴𝑶𝑯𝑨𝑴𝑬𝑫</title>
-  <title>Infection Control – &𝑴𝑰𝑹𝑵𝑨 𝑵𝑨𝑺𝑬𝑭</title>
+<title>Infection Control – BY: MOSTAFA SALLAM & NADER MOHAMED</title>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&family=Bebas+Neue&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
 <style>
 :root{--teal:#00c9b1;--teal-dark:#00968a;--navy:#0a1628;--navy2:#0d1f3c;--card:#111e35;--card2:#0f1d38;--accent:#00e5cc;--gold:#f0c040;--danger:#ff4d6d;--success:#29e06a;--text:#e8f0fe;--muted:#7a9bc0;}
@@ -13,7 +11,6 @@
 html{scroll-behavior:smooth;}
 body{font-family:'Tajawal',sans-serif;background:var(--navy);color:var(--text);min-height:100vh;overflow-x:hidden;}
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(0,201,177,0.04)1px,transparent 1px),linear-gradient(90deg,rgba(0,201,177,0.04)1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0;}
-/* HERO */
 .hero{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(0,201,177,0.15)0%,transparent 70%);}
 .hero-badge{display:inline-block;background:rgba(0,201,177,0.12);border:1px solid rgba(0,201,177,0.4);color:var(--teal);font-size:.75rem;letter-spacing:4px;padding:6px 18px;border-radius:50px;margin-bottom:24px;text-transform:uppercase;animation:fadeDown .8s ease both;}
 .hero h1{font-family:'Orbitron',sans-serif;font-size:clamp(2.2rem,7vw,5rem);font-weight:900;color:var(--accent);line-height:1.05;text-shadow:0 0 60px rgba(0,229,204,.5);animation:fadeDown .9s .1s ease both;}
@@ -23,7 +20,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .hero-enter{margin-top:36px;background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:var(--navy);border:none;padding:14px 40px;border-radius:50px;font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:3px;cursor:pointer;transition:all .2s;animation:fadeUp 1s .5s ease both;}
 .hero-enter:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(0,201,177,.4);}
 .scroll-hint{margin-top:32px;color:var(--muted);font-size:.78rem;letter-spacing:2px;animation:bounce 2s infinite;}
-/* TOP NAV */
 .top-nav{position:sticky;top:0;z-index:100;background:rgba(10,22,40,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,201,177,.18);display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:58px;}
 .nav-logo{font-family:'Orbitron',sans-serif;font-size:.72rem;color:var(--accent);letter-spacing:3px;white-space:nowrap;}
 .nav-tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;}
@@ -31,15 +27,12 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .nav-tab{padding:8px 16px;border-radius:30px;border:none;background:transparent;color:var(--muted);font-family:'Tajawal',sans-serif;font-size:.83rem;cursor:pointer;white-space:nowrap;transition:all .2s;}
 .nav-tab:hover{color:var(--text);}
 .nav-tab.active{background:rgba(0,201,177,.15);color:var(--teal);border:1px solid rgba(0,201,177,.3);}
-/* PAGES */
 .page{display:none;position:relative;z-index:1;max-width:980px;margin:0 auto;padding:60px 20px 80px;}
 .page.active{display:block;animation:fadeUp .4s ease;}
-/* HEADERS */
 .section-label{font-family:'Orbitron',sans-serif;font-size:.68rem;letter-spacing:5px;color:var(--teal);text-transform:uppercase;margin-bottom:10px;opacity:.8;}
 .section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3rem);letter-spacing:3px;color:#fff;margin-bottom:8px;}
 .section-title span{color:var(--accent);}
 .section-desc{color:var(--muted);font-size:.95rem;margin-bottom:36px;max-width:600px;}
-/* TIPS */
 .tips-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:18px;}
 .tip-card{background:var(--card);border:1px solid rgba(0,201,177,.15);border-radius:16px;padding:22px;transition:all .3s;position:relative;overflow:hidden;}
 .tip-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal),transparent);}
@@ -48,14 +41,12 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .tip-card h3{font-size:.95rem;font-weight:700;color:var(--accent);margin-bottom:7px;}
 .tip-card p{font-size:.85rem;color:var(--muted);line-height:1.7;}
 .tip-card .keyword{display:inline-block;background:rgba(0,201,177,.12);border:1px solid rgba(0,201,177,.3);color:var(--teal);font-size:.7rem;padding:3px 10px;border-radius:20px;margin-top:10px;font-weight:700;}
-/* KEYWORDS */
 .kw-table{width:100%;border-collapse:collapse;margin-top:16px;}
 .kw-table th{background:rgba(0,201,177,.14);color:var(--accent);font-size:.75rem;letter-spacing:2px;text-transform:uppercase;padding:13px 16px;text-align:right;border-bottom:1px solid rgba(0,201,177,.2);}
 .kw-table td{padding:13px 16px;border-bottom:1px solid rgba(255,255,255,.05);font-size:.86rem;}
 .kw-table tr:hover td{background:rgba(0,201,177,.04);}
 .kw-word{color:var(--gold);font-weight:700;font-family:monospace;}
 .kw-ans{color:var(--success);font-weight:700;}
-/* RIDDLES */
 .riddle-list{display:flex;flex-direction:column;gap:18px;}
 .riddle-card{background:var(--card2);border:1px solid rgba(240,192,64,.2);border-radius:16px;padding:24px 26px;transition:all .3s;position:relative;}
 .riddle-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent);}
@@ -69,14 +60,12 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .riddle-answer.show{display:block;animation:fadeUp .3s ease;}
 .ans-ar{color:var(--success);font-weight:700;font-size:1rem;}
 .ans-en{color:var(--teal);font-size:.84rem;margin-top:4px;font-style:italic;}
-/* SUMMARY */
 .summary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:15px;}
 .summary-card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:20px;transition:all .3s;}
 .summary-card:hover{border-color:rgba(0,201,177,.3);transform:translateY(-2px);}
 .summary-card h4{font-size:.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--teal);margin-bottom:9px;}
 .summary-card p{font-size:.88rem;color:var(--text);line-height:1.7;}
 .summary-card strong{color:var(--gold);}
-/* QUIZ */
 .quiz-top-bar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:24px;}
 .quiz-stats{display:flex;gap:10px;flex-wrap:wrap;}
 .stat-pill{background:rgba(0,201,177,.1);border:1px solid rgba(0,201,177,.25);padding:7px 16px;border-radius:30px;font-size:.78rem;color:var(--teal);font-family:'Orbitron',sans-serif;}
@@ -88,7 +77,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .prog-bar-outer{height:5px;background:rgba(255,255,255,.08);border-radius:10px;overflow:hidden;}
 .prog-bar-inner{height:100%;background:linear-gradient(90deg,var(--teal),var(--accent));border-radius:10px;transition:width .4s ease;}
 .prog-labels{display:flex;justify-content:space-between;font-size:.72rem;color:var(--muted);margin-top:5px;}
-/* Q CARDS */
 .questions-scroll{display:flex;flex-direction:column;gap:20px;}
 .q-card{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:26px 28px;transition:border-color .3s;}
 .q-card.answered-correct{border-color:rgba(41,224,106,.35);}
@@ -124,7 +112,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .q-feedback.bad{background:rgba(255,77,109,.07);border:1px solid rgba(255,77,109,.25);}
 .q-feedback.bad .fb-t{color:var(--danger);font-weight:900;}
 .fb-exp{color:var(--muted);font-size:.82rem;margin-top:5px;}
-/* RESULTS */
 .results-banner{display:none;background:linear-gradient(135deg,rgba(0,201,177,.12),rgba(0,201,177,.04));border:1px solid rgba(0,201,177,.3);border-radius:20px;padding:40px;text-align:center;margin-top:32px;}
 .results-banner.show{display:block;animation:fadeUp .5s ease;}
 .res-score{font-family:'Orbitron',sans-serif;font-size:clamp(2.5rem,8vw,5rem);font-weight:900;background:linear-gradient(135deg,var(--accent),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
@@ -135,12 +122,10 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .grade-d{background:rgba(255,77,109,.1);color:var(--danger);border:2px solid var(--danger);}
 .restart-btn{margin-top:20px;background:transparent;border:2px solid var(--teal);color:var(--teal);padding:12px 36px;border-radius:50px;font-family:'Bebas Neue',sans-serif;font-size:1rem;letter-spacing:3px;cursor:pointer;transition:all .2s;}
 .restart-btn:hover{background:var(--teal);color:var(--navy);}
-/* FLOAT COUNTER */
 .float-counter{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:rgba(10,22,40,.93);backdrop-filter:blur(12px);border:1px solid rgba(0,201,177,.3);border-radius:50px;padding:10px 26px;display:none;align-items:center;gap:14px;z-index:200;font-family:'Orbitron',sans-serif;font-size:.7rem;color:var(--teal);}
 .float-counter.show{display:flex;}
 .fc-score{color:var(--gold);}
 .fc-pct{color:var(--accent);}
-/* FOOTER */
 footer{position:relative;z-index:1;text-align:center;padding:36px 20px;color:var(--muted);font-size:.8rem;border-top:1px solid rgba(255,255,255,.06);}
 footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing:3px;font-size:1rem;}
 @keyframes fadeDown{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:translateY(0)}}
@@ -155,7 +140,7 @@ footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing
   <div class="hero-badge">🏥 Medical Education Platform</div>
   <h1><span>Infection</span><br>Control</h1>
   <p class="hero-sub">نصايح · تريكات · ألغاز · شرح كامل · كويز تفاعلي — كل حاجة في مكان واحد</p>
-  <div class="hero-by">𝑩𝒀 𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴</div>
+  <div class="hero-by">𝑩𝒀 𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴 &amp; 𝑵𝑨𝑫𝑬𝑹 𝑴𝑶𝑯𝑨𝑴𝑬𝑫</div>
   <button class="hero-enter" onclick="goToPage('tips')">ابدأ التعلم ↓</button>
   <div class="scroll-hint">↓ scroll ↓</div>
 </div>
@@ -222,7 +207,7 @@ footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing
 <div class="page" id="page-riddles">
   <div class="section-label">Brain Twisters – عربي وإنجليزي</div>
   <div class="section-title">ألغاز <span>العدوى</span></div>
-  <p class="section-desc">فكر مع نفسك واضغط لتكشف الإجابة 🧩 — كل لغز بعربي وإنجليزي</p>
+  <p class="section-desc">فكر مع نفسك واضغط لتكشف الإجابة 🧩</p>
   <div class="riddle-list">
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 01</div>
@@ -234,44 +219,44 @@ footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 02</div>
       <div class="riddle-q">أنا حاوية خاصة، باخد الإبر والزجاج المكسور، ولما باتملي باتقفل للأبد.. أنا مين؟</div>
-      <div class="riddle-q-en">I am a special container. I collect needles and broken glass. Once I'm full, I am sealed forever and never reopened. What am I?</div>
+      <div class="riddle-q-en">I am a special container. I collect needles and broken glass. Once I'm full, I am sealed forever. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
       <div class="riddle-answer"><div class="ans-ar">🏆 حاوية الأدوات الحادة — Sharps Container</div><div class="ans-en">Used for safe disposal of needles and all sharp instruments immediately after use.</div></div>
     </div>
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 03</div>
-      <div class="riddle-q">أنا أول حلقة في سلسلة العدوى، ومن غيري مفيش مرض ينتشر. وكسر حلقة واحدة في السلسلة كافي يوقفني.. أنا مين؟</div>
-      <div class="riddle-q-en">I am the first of 6 links in the chain of infection. Without me, no disease can spread. Breaking just one link anywhere in the chain can stop me. What am I?</div>
+      <div class="riddle-q">أنا أول حلقة في سلسلة العدوى، ومن غيري مفيش مرض ينتشر.. أنا مين؟</div>
+      <div class="riddle-q-en">I am the first of 6 links in the chain of infection. Without me, no disease can spread. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
       <div class="riddle-answer"><div class="ans-ar">🏆 العامل المعدي — Infectious Agent</div><div class="ans-en">The first link: bacteria, viruses, fungi, or parasites that cause disease.</div></div>
     </div>
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 04</div>
       <div class="riddle-q">بحمي مناخيرك وبقك من الرذاذ، بستعملني مرة واحدة، ولو مش موجود اعطس في الكوع مش الإيد.. أنا مين؟</div>
-      <div class="riddle-q-en">I protect your nose and mouth from respiratory droplets. I am single-use. If I'm unavailable, sneeze into your elbow — not your hand. What am I?</div>
+      <div class="riddle-q-en">I protect your nose and mouth from respiratory droplets. I am single-use. If unavailable, sneeze into your elbow. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
       <div class="riddle-answer"><div class="ans-ar">🏆 الكمامة / المنديل — Mask / Tissue</div><div class="ans-en">Core parts of respiratory hygiene and standard precautions.</div></div>
     </div>
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 05</div>
-      <div class="riddle-q">بطهرك من الميكروبات في 20-30 ثانية، لكن لو في أبواغ (Spores) محتاج تغسل بالماء والصابون بدلي.. أنا مين؟</div>
-      <div class="riddle-q-en">I clean your hands in 20–30 seconds. But when spores are present, soap and water must replace me — because I cannot kill spores. What am I?</div>
+      <div class="riddle-q">بطهرك من الميكروبات في 20-30 ثانية، لكن لو في أبواغ محتاج تغسل بالماء والصابون بدلي.. أنا مين؟</div>
+      <div class="riddle-q-en">I clean your hands in 20–30 seconds. But when spores are present, soap and water must replace me. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
-      <div class="riddle-answer"><div class="ans-ar">🏆 المعقم الكحولي — Alcohol-based Hand Rub</div><div class="ans-en">Effective against most pathogens but NOT against bacterial spores (e.g. C. difficile).</div></div>
+      <div class="riddle-answer"><div class="ans-ar">🏆 المعقم الكحولي — Alcohol-based Hand Rub</div><div class="ans-en">Effective against most pathogens but NOT against bacterial spores.</div></div>
     </div>
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 06</div>
-      <div class="riddle-q">أنا سائل من جسمك، لكن الاحتياطات القياسية مش بتشملني. أنا الاستثناء الوحيد بين كل سوائل الجسم.. أنا مين؟</div>
-      <div class="riddle-q-en">I am a fluid produced by your body, but standard precautions do NOT apply to me. I am the one and only exception among all body fluids. What am I?</div>
+      <div class="riddle-q">أنا سائل من جسمك، لكن الاحتياطات القياسية مش بتشملني. أنا الاستثناء الوحيد.. أنا مين؟</div>
+      <div class="riddle-q-en">I am a body fluid, but standard precautions do NOT apply to me. I am the one and only exception. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
-      <div class="riddle-answer"><div class="ans-ar">🏆 العرق — Sweat</div><div class="ans-en">The only body fluid excluded from standard precautions. All others require protective measures.</div></div>
+      <div class="riddle-answer"><div class="ans-ar">🏆 العرق — Sweat</div><div class="ans-en">The only body fluid excluded from standard precautions.</div></div>
     </div>
     <div class="riddle-card">
       <div class="riddle-num">RIDDLE 07</div>
-      <div class="riddle-q">أنا حاجة بتعملها لمدة 20-30 ثانية، الخواتم بتقلل فعاليتي، والجوانتي مش بيعوضني. أنا أهم خطوة في مكافحة العدوى.. أنا مين؟</div>
-      <div class="riddle-q-en">I take 20–30 seconds. Rings reduce my effectiveness, and gloves can never replace me. I am the single most important step in preventing infection. What am I?</div>
+      <div class="riddle-q">أنا حاجة بتعملها لمدة 20-30 ثانية، الخواتم بتقلل فعاليتي، والجوانتي مش بيعوضني.. أنا مين؟</div>
+      <div class="riddle-q-en">I take 20–30 seconds. Rings reduce my effectiveness, and gloves can never replace me. What am I?</div>
       <button class="riddle-toggle" onclick="toggleRiddle(this)">🔍 Reveal Answer</button>
-      <div class="riddle-answer"><div class="ans-ar">🏆 نظافة اليدين — Hand Hygiene</div><div class="ans-en">The #1 method to prevent the transmission of infection in all healthcare settings.</div></div>
+      <div class="riddle-answer"><div class="ans-ar">🏆 نظافة اليدين — Hand Hygiene</div><div class="ans-en">The #1 method to prevent transmission of infection in all healthcare settings.</div></div>
     </div>
   </div>
 </div>
@@ -298,7 +283,7 @@ footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing
     <div class="section-title">سلسلة <span>العدوى</span></div>
     <p class="section-desc">الـ 6 حلقات بالترتيب مع طريقة كسر كل حلقة</p>
     <div class="tips-grid">
-      <div class="tip-card" style="--c:var(--danger)"><div class="tip-icon">🦠</div><h3>1. Infectious Agent</h3><p>البكتيريا، الفيروس، الفطر. <strong>كسره:</strong> المضادات الحيوية والتعقيم.</p></div>
+      <div class="tip-card"><div class="tip-icon">🦠</div><h3>1. Infectious Agent</h3><p>البكتيريا، الفيروس، الفطر. <strong>كسره:</strong> المضادات الحيوية والتعقيم.</p></div>
       <div class="tip-card"><div class="tip-icon">🏠</div><h3>2. Reservoir</h3><p>مكان تعيش فيه الميكروبات. <strong>كسره:</strong> علاج المصدر وتنظيف البيئة.</p></div>
       <div class="tip-card"><div class="tip-icon">🚪</div><h3>3. Portal of Exit</h3><p>بوابة خروج الميكروب. <strong>كسره:</strong> تغطية الجروح، كمامة.</p></div>
       <div class="tip-card"><div class="tip-icon">🔄</div><h3>4. Mode of Transmission</h3><p>طريقة الانتقال. <strong>كسره:</strong> PPE، غسيل إيد، عزل.</p></div>
@@ -351,28 +336,41 @@ footer span{color:var(--gold);font-family:'Bebas Neue',sans-serif;letter-spacing
 
 <footer>
   <p style="margin-bottom:8px;">Infection Control Educational Platform</p>
-  <span>𝑩𝒀 𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴</span>
+  <span>𝑩𝒀 𝑴𝑶𝑺𝑻𝑨𝑭𝑨 𝑺𝑨𝑳𝑳𝑨𝑴 &amp; 𝑵𝑨𝑫𝑬𝑹 𝑴𝑶𝑯𝑨𝑴𝑬𝑫</span>
 </footer>
 
 <script>
-const PAGES=['tips','keywords','riddles','summary','quiz'];
-function goToPage(name){
-  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
-  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
-  document.getElementById('page-'+name).classList.add('active');
-  const idx=PAGES.indexOf(name);
-  document.querySelectorAll('.nav-tab')[idx].classList.add('active');
-  window.scrollTo({top:document.querySelector('.top-nav').offsetTop-2,behavior:'smooth'});
-  if(name==='quiz') document.getElementById('float-counter').classList.add('show');
-  else document.getElementById('float-counter').classList.remove('show');
-}
-function toggleRiddle(btn){
-  const a=btn.nextElementSibling;
-  a.classList.toggle('show');
-  btn.textContent=a.classList.contains('show')?'🔒 Hide Answer':'🔍 Reveal Answer';
+// ============================================================
+//  NAVIGATION
+// ============================================================
+const PAGES = ['tips','keywords','riddles','summary','quiz'];
+
+function goToPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  const page = document.getElementById('page-' + name);
+  if (page) page.classList.add('active');
+  const idx = PAGES.indexOf(name);
+  const tabs = document.querySelectorAll('.nav-tab');
+  if (tabs[idx]) tabs[idx].classList.add('active');
+  const nav = document.querySelector('.top-nav');
+  if (nav) window.scrollTo({ top: nav.offsetTop - 2, behavior: 'smooth' });
+  const fc = document.getElementById('float-counter');
+  if (name === 'quiz') fc.classList.add('show');
+  else fc.classList.remove('show');
 }
 
-const ALL_Q=[
+function toggleRiddle(btn) {
+  const a = btn.nextElementSibling;
+  a.classList.toggle('show');
+  btn.textContent = a.classList.contains('show') ? '🔒 Hide Answer' : '🔍 Reveal Answer';
+}
+
+// ============================================================
+//  QUESTIONS DATA
+// ============================================================
+const ALL_Q = [
+  // TRUE / FALSE (60)
   {type:'tf',q:"Infection control focuses on reducing the risk of healthcare-associated infections.",ans:true,exp:"صح – هدف مكافحة العدوى هو تقليل خطر العدوى المكتسبة في المنشآت الصحية."},
   {type:'tf',q:"Infection control is only important after a patient becomes infected.",ans:false,exp:"غلط – مكافحة العدوى بتشتغل على الوقاية قبل الإصابة، مش بعدها."},
   {type:'tf',q:"The main goal of infection control is to break the cycle of infection.",ans:true,exp:"صح – كسر سلسلة العدوى هو الهدف الأساسي."},
@@ -433,6 +431,9 @@ const ALL_Q=[
   {type:'tf',q:"Exposure to body fluids always requires protective measures.",ans:true,exp:"صح – أي تعرض لسوائل الجسم يستلزم إجراءات وقاية."},
   {type:'tf',q:"Proper waste segregation is part of infection control.",ans:true,exp:"صح – الفصل الصحيح للنفايات جزء أساسي من مكافحة العدوى."},
   {type:'tf',q:"Infection control measures are unnecessary if no infection is visible.",ans:false,exp:"غلط – معظم المسببات مش مرئية. الاحتياطات لازمة دايماً."},
+  {type:'tf',q:"Sweat is excluded from standard precautions.",ans:true,exp:"صح – العرق هو الاستثناء الوحيد من سوائل الجسم في الاحتياطات القياسية."},
+  {type:'tf',q:"Standard precautions apply to sweat just like other body fluids.",ans:false,exp:"غلط – العرق مستثنى من الاحتياطات القياسية."},
+  // MCQ (59)
   {type:'mcq',q:"What is infection control?",opts:["Treatment of diseases","Prevention of disease spread","Diagnosis of illness","Surgery procedures"],ans:1,exp:"مكافحة العدوى هي مجموعة إجراءات للوقاية من انتشار الأمراض."},
   {type:'mcq',q:"Infection control aims to:",opts:["Increase infections","Reduce transmission of microorganisms","Eliminate all bacteria","Avoid vaccination"],ans:1,exp:"الهدف الأساسي هو تقليل انتقال الميكروبات."},
   {type:'mcq',q:"Infection control practices are mainly used in:",opts:["Schools only","Hospitals and healthcare settings","Homes only","Offices only"],ans:1,exp:"المستشفيات والمنشآت الصحية هي المكان الرئيسي."},
@@ -460,27 +461,211 @@ const ALL_Q=[
   {type:'mcq',q:"Standard precautions include:",opts:["Mask only","Gloves only","All protective measures","None"],ans:2,exp:"الاحتياطات القياسية بتشمل كل إجراءات الحماية."},
   {type:'mcq',q:"Most important method to prevent infection:",opts:["Mask","Gloves","Hand hygiene","Shoes"],ans:2,exp:"نظافة اليدين هي الأهم في منع العدوى."},
   {type:'mcq',q:"Hand hygiene duration:",opts:["5-10 sec","10-15 sec","20-30 sec","1-5 sec"],ans:2,exp:"المدة الصح لغسيل الإيد هي 20-30 ثانية."},
-  {type:'mcq',q:"Use alcohol-based rub when:",opts:["Hands visibly dirty","Hands clean","Before eating only","After sleep"],ans:1,exp:"المطهر الكحولي يستخدم لما الإيد نظيفة مش وسخانة."},
-  {type:'mcq',q:"Wash hands when:",opts:["Before patient contact","After patient contact","After body fluids contact","All"],ans:3,exp:"لازم تغسل إيدك في كل المواقف دي."},
+  {type:'mcq',q:"Use alcohol-based rub when:",opts:["Hands visibly dirty","Hands not visibly soiled","Before eating only","After sleep"],ans:1,exp:"المطهر الكحولي يستخدم لما الإيد مش وسخانة بشكل واضح."},
+  {type:'mcq',q:"Wash hands with soap and water when:",opts:["After using restroom","Before patient contact","After body fluids contact","All of the above"],ans:3,exp:"لازم تغسل إيدك بالماء والصابون في كل المواقف دي."},
   {type:'mcq',q:"Hand hygiene prevents:",opts:["Infection transmission","Hunger","Sleep","Pain"],ans:0,exp:"غسيل الإيد بيمنع انتقال العدوى."},
   {type:'mcq',q:"PPE stands for:",opts:["Patient Protection Equipment","Personal Protective Equipment","Public Protection Equipment","Private Equipment"],ans:1,exp:"PPE = Personal Protective Equipment = معدات الوقاية الشخصية."},
-  {type:'mcq',q:"PPE includes:",opts:["Gloves","Masks","Gowns","All"],ans:3,exp:"الـ PPE بيشمل الجوانتي والكمامة والروب وغيرها."},
+  {type:'mcq',q:"PPE includes:",opts:["Gloves","Masks","Gowns","All of the above"],ans:3,exp:"الـ PPE بيشمل الجوانتي والكمامة والروب وغيرها."},
   {type:'mcq',q:"Gloves are used to:",opts:["Protect hands","Decoration","Warmth","Eating"],ans:0,exp:"الجوانتي بتحمي الإيد من التلوث."},
   {type:'mcq',q:"Mask protects:",opts:["Eyes","Nose and mouth","Hands","Feet"],ans:1,exp:"الكمامة بتحمي الأنف والفم من الرذاذ."},
-  {type:'mcq',q:"PPE should be used:",opts:["Sometimes","Always when needed","Never","Only in surgery"],ans:1,exp:"الـ PPE لازم يتستخدم دايماً وقت الحاجة."},
-  {type:'mcq',q:"Safe injection means:",opts:["Reuse needles","Single-use sterile needle","No gloves","Sharing syringes"],ans:1,exp:"الحقن الآمن يعني استخدام إبرة جديدة معقمة لكل حقنة."},
-  {type:'mcq',q:"Do not reuse:",opts:["Gloves","Needles","Masks","Gowns"],ans:1,exp:"الإبر ممنوع إعادة استخدامها."},
+  {type:'mcq',q:"PPE should be used:",opts:["Sometimes","Always when there is exposure risk","Never","Only in surgery"],ans:1,exp:"الـ PPE لازم يتستخدم دايماً وقت وجود خطر تعرض."},
+  {type:'mcq',q:"Safe injection means:",opts:["Reuse needles","Single-use sterile needle per injection","No gloves needed","Sharing syringes"],ans:1,exp:"الحقن الآمن يعني استخدام إبرة جديدة معقمة لكل حقنة."},
+  {type:'mcq',q:"Do not reuse:",opts:["Gloves between same patient","Needles","Gowns","Masks"],ans:1,exp:"الإبر ممنوع إعادة استخدامها أبداً."},
   {type:'mcq',q:"Dispose needles in:",opts:["Plastic bag","Sharps container","Floor","Pocket"],ans:1,exp:"الإبر لازم تتحط في Sharps container مباشرةً بعد الاستخدام."},
-  {type:'mcq',q:"Unsafe injection leads to:",opts:["Safety","Infection","Health","Cleanliness"],ans:1,exp:"الحقن غير الآمن بيؤدي لانتشار العدوى."},
-  {type:'mcq',q:"Use aseptic technique in:",opts:["Injection","Eating","Sleeping","Walking"],ans:0,exp:"التقنية المعقمة لازمة في إجراء الحقن."},
-  {type:'mcq',q:"Cover mouth when coughing using:",opts:["Hand","Tissue","Clothes","Nothing"],ans:1,exp:"المنديل هو الأفضل لتغطية الفم عند السعال."},
-  {type:'mcq',q:"If no tissue available, use:",opts:["Elbow","Hand","Do nothing","Shout"],ans:0,exp:"لو مفيش منديل، استخدم الكوع مش الإيد."},
-  {type:'mcq',q:"Dispose tissue in:",opts:["Floor","Pocket","Trash","Table"],ans:2,exp:"المنديل المستخدم يتحط في القمامة فوراً."},
-  {type:'mcq',q:"Perform hand hygiene after:",opts:["Coughing","Eating","Sleeping","Talking"],ans:0,exp:"السعال بيلوث الإيد فلازم تغسلها بعده."},
-  {type:'mcq',q:"Wear mask when:",opts:["Sick","Healthy","Sleeping","Eating"],ans:0,exp:"الكمامة ضرورية خصوصاً لو عندك أعراض تنفسية."},
+  {type:'mcq',q:"Unsafe injection leads to:",opts:["Safety","Infection transmission","Health improvement","Cleanliness"],ans:1,exp:"الحقن غير الآمن بيؤدي لانتشار العدوى."},
+  {type:'mcq',q:"Cover mouth when coughing using:",opts:["Bare hand","Tissue or mask","Clothes","Nothing"],ans:1,exp:"المنديل أو الكمامة هو الأفضل لتغطية الفم عند السعال."},
+  {type:'mcq',q:"If no tissue available, use:",opts:["Elbow","Bare hand","Do nothing","Shout for help"],ans:0,exp:"لو مفيش منديل، استخدم الكوع مش الإيد."},
+  {type:'mcq',q:"Dispose tissue in:",opts:["Floor","Pocket","Trash / waste bin","Table"],ans:2,exp:"المنديل المستخدم يتحط في القمامة فوراً."},
+  {type:'mcq',q:"Perform hand hygiene after:",opts:["Coughing or sneezing","Eating","Sleeping","Talking"],ans:0,exp:"السعال والعطس بيلوثوا الإيد فلازم تغسلها بعدهم."},
+  {type:'mcq',q:"Wear mask when:",opts:["You have respiratory symptoms","Healthy and no risk","Sleeping","Eating alone"],ans:0,exp:"الكمامة ضرورية خصوصاً لو عندك أعراض تنفسية."},
   {type:'mcq',q:"Cough etiquette prevents:",opts:["Air pollution","Infection spread","Hunger","Noise"],ans:1,exp:"آداب السعال بتمنع انتشار العدوى."},
-  {type:'mcq',q:"During cough etiquette, avoid:",opts:["Covering mouth","Hand hygiene","Coughing openly","Mask use"],ans:2,exp:"السعال في الهواء مباشرةً ممنوع."},
-  {type:'mcq',q:"Maintain distance when coughing:",opts:["1 meter","10 meters","No distance","0 meter"],ans:0,exp:"المسافة الآمنة عند السعال هي متر واحد على الأقل."},
-  {type:'mcq',q:"Respiratory hygiene includes:",opts:["Mask","Tissue","Hand hygiene","All"],ans:3,exp:"نظافة الجهاز التنفسي بتشمل الكمامة والمنديل وغسيل الإيد."},
-  {type:'mcq',q:"Cough etiquette is part of:",opts:["Surgery","Infection control","Exercise","Nutrition"],ans:1,exp:"آداب السعال جزء من منظومة مكافحة العدوى."},
-  {type:'mcq',q:"Standard precautions are based on the assumption that:",opts:["All patients are non-infectious","Some patients are infectious","All blood and body fluids may be in
+  {type:'mcq',q:"During cough etiquette, avoid:",opts:["Covering mouth with tissue","Performing hand hygiene","Coughing openly in air","Wearing mask"],ans:2,exp:"السعال في الهواء مباشرةً ممنوع."},
+  {type:'mcq',q:"Maintain safe distance when coughing:",opts:["At least 1 meter","10 meters","No distance needed","0 meter"],ans:0,exp:"المسافة الآمنة عند السعال هي متر واحد على الأقل."},
+  {type:'mcq',q:"Respiratory hygiene includes:",opts:["Mask only","Tissue only","Hand hygiene only","Mask, tissue, and hand hygiene"],ans:3,exp:"نظافة الجهاز التنفسي بتشمل الكمامة والمنديل وغسيل الإيد."},
+  {type:'mcq',q:"Cough etiquette is part of:",opts:["Surgery only","Infection control","Exercise routines","Nutrition plans"],ans:1,exp:"آداب السعال جزء من منظومة مكافحة العدوى."},
+  {type:'mcq',q:"Standard precautions should be applied:",opts:["Only to infected patients","To all patients at all times","Only in ICU","Only during surgery"],ans:1,exp:"الاحتياطات القياسية تطبق على كل المرضى في كل الأوقات."},
+  {type:'mcq',q:"Which body fluid is excluded from standard precautions?",opts:["Blood","Urine","Sweat","Saliva"],ans:2,exp:"العرق (Sweat) هو الاستثناء الوحيد من سوائل الجسم."},
+  {type:'mcq',q:"The portal of exit in chain of infection means:",opts:["How microbe enters body","How microbe leaves reservoir","Where microbe lives","Who gets infected"],ans:1,exp:"Portal of Exit = بوابة خروج الميكروب من المصدر."},
+  {type:'mcq',q:"PPE selection is based on:",opts:["Patient's age","Type of exposure risk","Cost of equipment","Doctor's preference"],ans:1,exp:"اختيار الـ PPE بيعتمد على نوع خطر التعرض."},
+  {type:'mcq',q:"Alcohol-based hand rub is NOT effective against:",opts:["Bacteria","Viruses","Spores","Fungi"],ans:2,exp:"المطهر الكحولي غير فعّال ضد الأبواغ (Spores)."},
+  {type:'mcq',q:"When should gloves be changed?",opts:["Between every patient","After 4 hours","Once a day","Only when torn"],ans:0,exp:"الجوانتي لازم تتغير بين كل مريض والثاني."},
+  {type:'mcq',q:"What does the 'Susceptible Host' link mean?",opts:["A person immune to infection","A person who may develop infection","A reservoir for bacteria","A portal of exit"],ans:1,exp:"Susceptible Host = شخص ممكن يصاب بالعدوى بسبب ضعف مناعته."},
+  {type:'mcq',q:"Which action is correct for sharps safety?",opts:["Recap needle after use","Dispose in sharps container immediately","Bend needle before disposal","Leave needle on tray"],ans:1,exp:"الإبرة مباشرةً بعد الاستخدام في Sharps container — هذه هي الممارسة الصحيحة."},
+  {type:'mcq',q:"How can the reservoir link be broken?",opts:["Recapping needles","Treating the source and cleaning environment","Ignoring hygiene","Sharing equipment"],ans:1,exp:"كسر حلقة الـ Reservoir يكون بعلاج المصدر وتنظيف البيئة."},
+  {type:'mcq',q:"The last link in chain of infection is:",opts:["Infectious agent","Portal of exit","Mode of transmission","Susceptible host"],ans:3,exp:"آخر حلقة في سلسلة العدوى هي المضيف المعرض للخطر (Susceptible Host)."},
+  {type:'mcq',q:"Which is a correct safe injection practice?",opts:["Reuse syringe for same patient","Use one needle per injection","Share vials freely","Recap needle after use"],ans:1,exp:"استخدام إبرة واحدة لكل حقنة هو الممارسة الصحيحة."}
+];
+
+// ============================================================
+//  QUIZ STATE
+// ============================================================
+let currentFilter = 'all';
+let filteredQ = [];
+let answered = {};
+let correct = 0;
+let total = 0;
+
+function setQFilter(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.qf-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  renderQuiz();
+}
+
+function renderQuiz() {
+  if (currentFilter === 'all') filteredQ = ALL_Q;
+  else filteredQ = ALL_Q.filter(q => q.type === currentFilter);
+
+  answered = {};
+  correct = 0;
+  total = filteredQ.length;
+
+  document.getElementById('sq-total').textContent = total + ' سؤال';
+  document.getElementById('results-banner').classList.remove('show');
+  updateStats();
+
+  const container = document.getElementById('questions-container');
+  container.innerHTML = '';
+
+  filteredQ.forEach((q, i) => {
+    const card = document.createElement('div');
+    card.className = 'q-card';
+    card.id = 'qcard-' + i;
+
+    const letters = ['A','B','C','D'];
+    let inputHTML = '';
+
+    if (q.type === 'tf') {
+      inputHTML = `<div class="tf-row">
+        <button class="tf-btn true-btn" onclick="answerTF(${i}, true)">✓ TRUE</button>
+        <button class="tf-btn false-btn" onclick="answerTF(${i}, false)">✗ FALSE</button>
+      </div>`;
+    } else {
+      const optsHTML = q.opts.map((o, j) => `
+        <button class="opt-btn" onclick="answerMCQ(${i}, ${j})">
+          <span class="opt-letter">${letters[j]}</span>
+          <span>${o}</span>
+        </button>`).join('');
+      inputHTML = `<div class="opts-list">${optsHTML}</div>`;
+    }
+
+    card.innerHTML = `
+      <div class="q-card-header">
+        <span class="q-badge ${q.type}">${q.type === 'tf' ? 'T / F' : 'MCQ'}</span>
+        <span class="q-num-label">Q${i + 1} / ${total}</span>
+        <span class="q-status-icon" id="qstatus-${i}">⭕</span>
+      </div>
+      <div class="q-text">${q.q}</div>
+      ${inputHTML}
+      <div class="q-feedback" id="qfb-${i}">
+        <span class="fb-t"></span>
+        <div class="fb-exp"></div>
+      </div>`;
+
+    container.appendChild(card);
+  });
+}
+
+function answerTF(i, userAns) {
+  if (answered[i] !== undefined) return;
+  const q = filteredQ[i];
+  const isCorrect = (userAns === q.ans);
+  answered[i] = isCorrect;
+  if (isCorrect) correct++;
+
+  const card = document.getElementById('qcard-' + i);
+  card.classList.add(isCorrect ? 'answered-correct' : 'answered-wrong');
+
+  const btns = card.querySelectorAll('.tf-btn');
+  btns.forEach(b => b.disabled = true);
+
+  const trueBtn = card.querySelector('.true-btn');
+  const falseBtn = card.querySelector('.false-btn');
+
+  if (q.ans === true) trueBtn.classList.add('correct');
+  else falseBtn.classList.add('correct');
+
+  if (!isCorrect) {
+    if (userAns === true) trueBtn.classList.add('wrong');
+    else falseBtn.classList.add('wrong');
+  }
+
+  document.getElementById('qstatus-' + i).textContent = isCorrect ? '✅' : '❌';
+  showFeedback(i, isCorrect, q.exp);
+  updateStats();
+  checkComplete();
+}
+
+function answerMCQ(i, j) {
+  if (answered[i] !== undefined) return;
+  const q = filteredQ[i];
+  const isCorrect = (j === q.ans);
+  answered[i] = isCorrect;
+  if (isCorrect) correct++;
+
+  const card = document.getElementById('qcard-' + i);
+  card.classList.add(isCorrect ? 'answered-correct' : 'answered-wrong');
+
+  const opts = card.querySelectorAll('.opt-btn');
+  opts.forEach(b => b.disabled = true);
+  opts[q.ans].classList.add('correct');
+  if (!isCorrect) opts[j].classList.add('wrong');
+
+  document.getElementById('qstatus-' + i).textContent = isCorrect ? '✅' : '❌';
+  showFeedback(i, isCorrect, q.exp);
+  updateStats();
+  checkComplete();
+}
+
+function showFeedback(i, isCorrect, exp) {
+  const fb = document.getElementById('qfb-' + i);
+  fb.className = 'q-feedback show ' + (isCorrect ? 'ok' : 'bad');
+  fb.querySelector('.fb-t').textContent = isCorrect ? '✅ إجابة صح!' : '❌ إجابة غلط';
+  fb.querySelector('.fb-exp').textContent = exp;
+}
+
+function updateStats() {
+  const answeredCount = Object.keys(answered).length;
+  const pct = answeredCount > 0 ? Math.round((correct / answeredCount) * 100) : 0;
+  const prog = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+
+  document.getElementById('sq-score').textContent = '✨ ' + correct + ' / ' + answeredCount;
+  document.getElementById('sq-pct').textContent = 'دقة: ' + pct + '%';
+  document.getElementById('qprog-bar').style.width = prog + '%';
+  document.getElementById('qprog-pct').textContent = prog + '% مكتمل';
+  document.getElementById('qprog-left').textContent = answeredCount + ' / ' + total + ' تم الإجابة';
+
+  document.getElementById('fc-score').textContent = correct + '/' + answeredCount;
+  document.getElementById('fc-pct').textContent = pct + '%';
+  document.getElementById('fc-left').textContent = (total - answeredCount) + ' متبقي';
+}
+
+function checkComplete() {
+  if (Object.keys(answered).length < total) return;
+  const pct = Math.round((correct / total) * 100);
+  document.getElementById('res-score-val').textContent = correct + ' / ' + total;
+
+  let grade, gradeClass, msg;
+  if (pct >= 90) { grade = 'A – ممتاز 🏆'; gradeClass = 'grade-a'; msg = 'أداء رائع! أنت مستعد للامتحان.'; }
+  else if (pct >= 75) { grade = 'B – جيد جداً ✨'; gradeClass = 'grade-b'; msg = 'كويس جداً! راجع النقاط الغلط.'; }
+  else if (pct >= 60) { grade = 'C – جيد 👍'; gradeClass = 'grade-c'; msg = 'مش بطال، بس محتاج مراجعة أكتر.'; }
+  else { grade = 'D – يحتاج مراجعة 📚'; gradeClass = 'grade-d'; msg = 'لازم تراجع المادة من الأول.'; }
+
+  const gradeEl = document.getElementById('res-grade-val');
+  gradeEl.textContent = grade;
+  gradeEl.className = 'res-grade ' + gradeClass;
+  document.getElementById('res-msg').textContent = msg;
+  document.getElementById('results-banner').classList.add('show');
+  document.getElementById('results-banner').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function restartQuiz() {
+  renderQuiz();
+  window.scrollTo({ top: document.getElementById('page-quiz').offsetTop, behavior: 'smooth' });
+}
+
+// Init quiz on load
+renderQuiz();
+</script>
+</body>
+</html>
